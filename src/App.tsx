@@ -4,7 +4,7 @@ import ProgressBar from "./assets/ProgressBar/ProgressBar";
 
 import "./App.css"
 import MainDivision from "./assets/ProjetINF/MainDivision";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 
 //import { faPowerOff } from '@fortawesome/free-solid-svg-icons'
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -15,12 +15,12 @@ function App() {
 
   // Mode Attente/Pret
   //const [ready, setGeneralState] = useState(false);
-  
+  const ready = false;
   const videoRef = useRef<HTMLVideoElement>(null);
   //const [hasClicked, setHasClicked] = useState(false);
-  const [on, setOn] = useState(false);
+  //const [on, setOn] = useState(false);
 
-  const handleChange = () => {
+  /*const handleChange = () => {
     // si c'est déjà à true, on n'essaie plus de basculer
     if (on) return;
     setOn(true);
@@ -30,7 +30,7 @@ function App() {
     if (videoRef.current) {
       videoRef.current.play();
     }
-  };
+  };*/
 
  /* const handleFunctions = () => {
     if (on) return;
