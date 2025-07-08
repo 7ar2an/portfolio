@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+.containerProgress {
+    display: flex;
+    flex-direction: column;
+    border: solid yellow 1px;
+    height: 100vh;
+
+    justify-content: center;
+}
+
+.Rosemont, .ETS, .But{
+    text-align: center;   
+}
+
+.Rosemont h1, .ETS h1, .But h1 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+.Rosemont h1{
+    color: #696D6C;
+    font-size: 1.5rem;
+}
+
+.ETS h1{
+    color: #8996A3;
+    font-size: 2.8rem;
+}
+.But h1{
+    color: #1A1C21;
+    font-size: 3.5rem;
+}

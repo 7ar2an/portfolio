@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');
+
+.INF_Division {
+    padding: 2.5vh;        
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: red solid 1px;
+}
+
+
+
+.INF_Description {
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+
+    width: 83vw;
+    background-color: rgba(255,255,255, 0.8);
+    color: #000;
+    border-radius: 6px;
+
+    
+    padding: 15px;
+    margin-bottom: 15px;
+
+    font-size: 1.2rem;
+
+}
+
+.INF_main {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.LeftCol, .RightCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.MiddleCol {
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+}
+
+.LeftCol {
+    
+    flex: 5;
+}
+
+.MiddleCol {
+    
+    flex: 1;
+}
+
+.RightCol {
+    
+    flex: 5;
+}
+
+.FirstTerminal, .SecondTerminal {
+    background: #1e1e1e;
+    
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    width: 28vw;
+    margin-bottom: 15px;
+
+    
+}
+
+.FirstTerminal {
+    height: 40vh;
+}
+
+.SecondTerminal {
+    height: 68vh;
+}
+
+.FirstTerminalDescription{
+    background-color: rgba(255,255,255, 0.8);
+    color: #000;
+    border-radius: 6px;
+    
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+
+    padding: 13px;
+
+    font-size: 1rem;
+}
+
+.terminal-header {
+    background: #2d2d2d;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    border-bottom: 1px solid #3e3e3e;
+    position: relative;
+}
+
+.terminal-tab {
+    
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #3e3e3e;
+    padding: 6px 12px;
+    border-radius: 6px 6px 0 0;
+    min-width: 200px;
+    border-bottom: none;
+    color: #ffffff;
+    font-size: 12px;
+    
+}
+
+.terminal-tab-close {
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: #cccccc;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 2px 4px;
+    border-radius: 3px;
+    
+}
+
+.terminal-tab-close:hover {
+    background: #555;
+    color: #fff;
+    
+}
+
+.terminal-new-tab {
+    background: none;
+    border: none;
+    color: #cccccc;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px 8px;
+    margin-left: 8px;
+    border-radius: 3px;
+    
+}
+
+.terminal-new-tab:hover {
+    background: #464646;
+}
+
+.window-controls {
+    margin-left: auto;
+    display: flex;
+    gap: 4px;
+    
+}
+
+.window-btn {
+    background: none;
+    border: none;
+    color: #cccccc;
+    font-size: 14px;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.window-btn:hover {
+    background: #464646;
+}
+
+.window-btn.close:hover {
+    background: #e81123;
+    color: white;
+}
+
+.terminal-content {
+    padding: 10px;
+    background: #0c0c0c;
+    overflow: auto;
+    flex: 1;
+    color: #ffffff;
+    font-size: 14px; /*14px*/
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    
+    height: 300px; /* ou ta hauteur fixe */
+   
+}
+
+.hex{
+    flex: 1;
+    
+}
+.corrupt{
+    flex: 1;
+    
+}
+.info{
+    flex: 2;
+    
+}
+
+.log-line {
+    margin-bottom: 2px;
+    font-weight: normal;
+    white-space: pre;
+}
+
+.cursor {
+    display: inline-block;
+    animation: blink 0.5s infinite;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+.control {
+    
+    width: 10%;
+}
+
+/* From Uiverse.io by vinodjangid07 */ 
+/* From Uiverse.io by vinodjangid07 */
+
+
+.switch {
+  position: relative;
+  width: 90px;
+  height: 50px;
+  background-color: rgb(80, 80, 80);
+  /* make rectangular: */
+  border-radius: 0;
+  z-index: 1;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 1.1em;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border: 2px solid #7e7e7e;
+  
+  box-shadow: 0px 0px 3px #C8E8FA inset;
+  font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+.svg {
+  position: relative;
+  width: 30%;
+  height: 30%;
+  /* rectangular too: */
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg path {
+  fill: rgb(37, 37, 37);
+}
+
+#checkbox:checked + .switch .svg {
+  filter: drop-shadow(0px 0px 3px rgb(222, 151, 255));
+}
+
+#checkbox:checked + .switch .svg path {
+  fill: rgb(255, 255, 255);
+}
+
+#checkbox:checked + .switch {
+  box-shadow:
+    0px 0px 1px #C8E8FA inset,
+    0px 0px 2px #C8E8FA inset,
+    0px 0px 10px #C8E8FA inset,
+    0px 0px 40px #C8E8FA,
+    0px 0px 100px #C8E8FA,
+    0px 0px 5px rgb(200, 232, 250);
+  border: 2px solid rgb(255, 336, 255);
+  background-color: #7699ae;
+  color: rgb(255, 255, 255);
+  /* still rectangular */
+  border-radius: 0;
+}
