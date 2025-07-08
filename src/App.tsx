@@ -6,8 +6,8 @@ import "./App.css"
 import MainDivision from "./assets/ProjetINF/MainDivision";
 import { useRef, useState } from "react";
 
-import { faPowerOff } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { faPowerOff } from '@fortawesome/free-solid-svg-icons'
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 
