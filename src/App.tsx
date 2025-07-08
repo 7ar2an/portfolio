@@ -14,10 +14,10 @@ import { useRef, useState } from "react";
 function App() {
 
   // Mode Attente/Pret
-  const [ready, setGeneralState] = useState(false);
+  //const [ready, setGeneralState] = useState(false);
   
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [hasClicked, setHasClicked] = useState(false);
+  //const [hasClicked, setHasClicked] = useState(false);
   const [on, setOn] = useState(false);
 
   const handleChange = () => {
@@ -32,12 +32,12 @@ function App() {
     }
   };
 
-  const handleFunctions = () => {
+ /* const handleFunctions = () => {
     if (on) return;
-    setHasClicked(true)
+    //setHasClicked(true)
     handleChange();
     handlePlayPause();
-  }
+  }*/
   
   return (
     <div className="mainContainer">
